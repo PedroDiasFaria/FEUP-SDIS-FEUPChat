@@ -1,0 +1,21 @@
+.emoticon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-indent: -10000px;
+    overflow: hidden;
+    cursor: text;
+    background: url('emoticons.png') no-repeat;
+    text-align: left;
+    margin-bottom: -6px;
+}
+.emoticon-smile { background-position: 0 0; }
+.emoticon-sad-smile { background-position: 0 -29px; }
+.emoticon-big-smile { background-position: 0 -58px; }
+.emoticon-crying { background-position: 0 -87px; }
+.emoticon-kiss { background-position: 0 -116px; }
+.emoticon-tongue-out { background-position: 0 -145px; }
+.emoticon-worried { background-position: 0 -174px; }
+.emoticon-heart { background-position: 0 -203px; }
+.emoticon-drunk { background-position: 0px -232px; }
+.emoticon-tmi { background-position: 0px -261px; }

@@ -1,0 +1,34 @@
+Páginas php para cada módulo:
+
+M01 : Login.php
+	  Register.php
+	  UserProfile.php
+	  EditProfile.php
+	  UserStatistics.php
+	  UserCalendar.php	
+
+M02 : Projects.php
+	  EditProject.php
+	  EnterProject.php
+	  LeaveProject.php
+	  CreateProject.php
+	  InviteToProject.php
+
+M03 : Project.php
+	  CreateTask.php
+	  EditTask.php
+	  CommentTask.php
+	  ProjectCalendar.php
+	  ProjectStatistics.php
+
+M04 : Forum.php
+	  ForumTopic.php 
+	  CreateTopic.php
+	  EditTopic.php
+	  SearchTopic.php
+	  CommentTopic.php
+
+M05 : AddMember.php
+	  RemoveMember.php
+	  MemberStatistics.php
+	  ChangeMembersPermissions.php
