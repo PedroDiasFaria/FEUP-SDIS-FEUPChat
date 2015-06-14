@@ -91,7 +91,7 @@ passport.deserializeUser(function(user, done) {
 });
 
 // Binds and listen to connections from the port specified //
-.listen(process.env.PORT || 5000)
+listen(process.env.PORT || 5000)
 
 // Defines messages handlers for the sockets messages //
 io.sockets.on('connection', function(socket){
