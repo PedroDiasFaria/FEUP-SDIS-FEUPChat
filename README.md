@@ -5,8 +5,8 @@ FEUPChat is a responsive web application used for chat conversations that can be
 The application allows users to :
 * Send and receive messages;
 * Create chat groups;
-* Open private conversations;
-* Multiple simaltanious chats; 
+* Creat private conversations;
+* Multiple simultaneous chats; 
 * Send and receive emoticons;
 * Send and receive files;
 
