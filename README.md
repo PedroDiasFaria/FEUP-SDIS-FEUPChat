@@ -12,6 +12,8 @@ The application allows users to :
 
 The application uses socket.io which makes it socket-based, which basically means that all the communications are made trough sockets. When a client sends a message, the message is redirected trought the server for the other clients trought the respective socket. This is due to Node.js security characteristics, that dont allow us to send the messages directly from peer-to-peer. All the message processment is made in the respective client. 
 
+A demo of the application is online at : https://secure-sands-9782.herokuapp.com/
+
 <img src="https://dl.dropboxusercontent.com/u/15655441/11424491_984464068271425_1357485947_o.jpg" hspace="20" width="700" height="350" />
 
 
