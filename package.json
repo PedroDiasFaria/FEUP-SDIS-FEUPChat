@@ -1,0 +1,34 @@
+{
+  "name": "feupchat",
+  "version": "1.0.0",
+  "description": "A RESTful chat application made with node and express.",
+  "main": "server.js",
+  "dependencies": {
+    "connect-busboy": "^0.0.1",
+    "body-parser": "^1.3.0",
+    "connect": "^2.18.0",
+    "cookie-parser": "^1.1.0",
+    "morgan": "^1.1.1",
+    "express": "^4.12.4",
+    "jade": "^1.3.1",
+    "express-session": "^1.2.1",
+    "passport": "^0.2.0",
+    "passport-facebook": "^1.0.3",
+    "socket.io": "^0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuiBottoFigueira/FEUPChat.git"
+  },
+  "author": "RuiBottoFigueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuiBottoFigueira/FEUPChat/issues"
+  },
+  "homepage": "https://github.com/RuiBottoFigueira/FEUPChat#readme"
+}
