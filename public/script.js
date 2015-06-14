@@ -1,5 +1,5 @@
 // Connects to the server that serves the page //
-var socket = io.connect('http://localhost:3000');
+var socket = io.connect(window.location.hostname);
 var username = '';
 var definition;
 
