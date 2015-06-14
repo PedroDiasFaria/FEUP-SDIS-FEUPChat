@@ -90,8 +90,8 @@ passport.deserializeUser(function(user, done) {
   done(null, user);
 });
 
-// Binds and listen to connections from the port 3000 //
-server.listen(5000);//,{log:false});
+// Binds and listen to connections from the port specified //
+.listen(process.env.PORT || 5000)
 
 // Defines messages handlers for the sockets messages //
 io.sockets.on('connection', function(socket){
@@ -197,4 +197,4 @@ setInterval(function(){
 	io.sockets.emit('updateRooms', rooms);
 }, 5000);
 
-console.log('Server running at http://192.168.55.90/');
+console.log('Server running');
