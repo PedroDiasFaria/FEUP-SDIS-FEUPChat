@@ -91,7 +91,7 @@ passport.deserializeUser(function(user, done) {
 });
 
 // Binds and listen to connections from the port 3000 //
-server.listen(3000);//,{log:false});
+server.listen(5000);//,{log:false});
 
 // Defines messages handlers for the sockets messages //
 io.sockets.on('connection', function(socket){
