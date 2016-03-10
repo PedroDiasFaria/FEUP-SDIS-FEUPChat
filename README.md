@@ -14,6 +14,10 @@ The application uses socket.io which makes it socket-based, which basically mean
 
 A demo of the application is online at : https://secure-sands-9782.herokuapp.com/
 
+In collaboration with: 
+* https://github.com/RuiBottoFigueira
+* https://github.com/Rafikii
+
 <img src="https://dl.dropboxusercontent.com/u/15655441/11424491_984464068271425_1357485947_o.jpg" hspace="20" width="700" height="350" />
 
 
